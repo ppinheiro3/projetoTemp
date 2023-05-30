@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+var k float64 = 373
+var tempC float64 = (k - 273)
+
+func main() {
+
+	fmt.Println("O ponto de ebulicao da agua convertido de Kelvin para Celsius  é = ", tempC)
+
+}
